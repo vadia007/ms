@@ -11,74 +11,113 @@
  * details.
  */
 
-
 body
 {
+    background: url("../images/blue_dots.png") repeat-x scroll 50% top #15528F;
     color: #000000;
     font-family: arial,tahoma,arial,sans-serif;
     font-size: 14px;
     margin: 0;
-    min-width: 1000px;
+    min-width: 980px;
     padding: 0;
 }
 
 #main {
     margin: 25px auto;
-    max-width: 1200px;
+    max-width: 980px;
     position: relative;
 }
 #main h1 {
 
-    height: 100px;
-    margin: 0 35px;
+    height: 170px;
+    margin: 0 0 0 35px;
     padding: 0;
     width: 200px;
+    float: left;
 }
 
 
 #main #menu {
-    font: 1.45em tahoma,arial,sans-serif;
-    list-style: none outside none;
-    margin: 43px 35px 0 0;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+    background-image: -moz-linear-gradient(center top , #E1E7ED, #819FBD);
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 950px;
+    clear: both;
+    margin-top: 15px;
 }
 #main #menu ul{
-    list-style: none;
-}
-#main #menu li {
-    float: left;
-    margin: 0 0 0 30px;
-    padding: 0;
-}
-#visual {
-    clear: both;
-    margin: 10px 35px 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    display: table;
+    list-style: none outside none;
     overflow: hidden;
     position: relative;
-    height: 150px;
+    margin: 0;
+    line-height: 40px;
+}
+#main #menu li {
+    display: table-cell;
+    min-width: 100px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+
+#main #menu li.active a{
+    background-image: -moz-linear-gradient(center top , #396999, #819FBD)
+}
+#main #menu li a{
+    /*color: #000000;*/
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 12px;
+    margin: 0px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#main #menu li a:hover{
+    text-decoration: underline;
+}
+#main #menu li.active a{
+    color: #fff;
+}
+
+#visual {
+    clear: both;
+    margin: 10px 40px 0;
+    position: relative;
+    height: 180px;
+}
+#visual div.custom{
+    min-width: 1120px;
 }
 .customheader{
-    height: 100%;
-    width: 100%;
+    height: 180px;
+    float: left;
+    width: 715px;
 }
 
 #content {
     clear: both;
-    margin: 30px 35px;
     overflow: hidden;
 }
 
 #content #left {
-    width: 23%;
+    width: 22%;
     float: left;
+    background: #fff;
+    border-radius: 10px
+
 }
 #content #right {
-    width: 72%;
+    width: 75%;
     float: right;
+    background: #fff;
+    border-radius: 10px
 
 }
 .blue{
@@ -102,24 +141,51 @@ body
     padding: 0;
 }
 #content #left ul li a{
-    color: #158AC0;
+    color: #094581;
+    font-size: 16px;
     text-decoration: none;
+
 }
-#main h2 {
-    color: #40ADF3;
-    font-size: 2.4em;
-    font-weight: normal;
-    margin: 0 0 20px;
+#content #left ul li li a{
+    color: #094581;
+    font-size: 13px;
+    text-decoration: none;
+
 }
-#main a {
-    color: #105CB1;
+
+#content #left ul li.active{
+    padding-left: 22px;
 }
+
+#content #left ul li.active>a{
+    color: #222;
+}
+
+#content #left ul li:hover{
+    margin-left: 3px;
+}
+#content #left ul li.active:hover{
+    margin-left: 0;
+}
+/*#content #left ul li li{*/
+    /*list-style: square;*/
+/*}*/
 #main a:hover {
     color:#01356f;
 }
-#main h2 a{
-    color: #40ADF3;
+#content #right h2{
+    background: -moz-linear-gradient(center top , #E1E7ED, #819FBD) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #424546;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    line-height: 35px;
+    padding-left: 20px;;
+}
+#right h2 a{
     text-decoration: none;
+    color: #424546
 }
 img{
     margin: 0;
@@ -131,7 +197,7 @@ td {
     text-align: center;
 }
 .content-block {
-    background-color: #FFFFFF;
+    background-color: #FAFAFA;
     float: left;
     height: 280px;
     position: relative;
@@ -215,4 +281,45 @@ form.simpleForm input.inputtext{
 .submit{
     margin-left: 250px;
 
+}
+div#right_img {
+    float: left;
+    width: 139px;
+    margin-left: 35px;
+}
+
+#right h2~*{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#right h2~ul{
+    padding-left: 50px;
+}
+#left div.moduletable h3{
+    margin: 0;
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 35px;
+    background: -moz-linear-gradient(center top , #E1E7ED, #819FBD) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 10px 10px 0 0;
+    color: #424546;
+}
+a{
+    text-decoration: none;
+}
+#bread {
+    font-size: 15px;
+    margin: 5px 0;
+    min-height: 15px;
+}
+#bread a{
+    color: #000;
+}
+
+.readmore > a {
+    background: none repeat scroll 0 0 #E1E7ED;
+    border: 1px solid #E1E7ED;
+    border-radius: 10px;
+    color: #094581;
 }

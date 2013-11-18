@@ -23,34 +23,39 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/beez_20/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2408" selection-end="2408" vertical-scroll-proportion="-0.625">
-              <folding />
+            <state line="69" column="10" selection-start="2220" selection-end="2220" vertical-scroll-proportion="-16.083334">
+              <folding>
+                <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1384778297344" expanded="true" signature="2138:2206" placeholder="..." />
+                <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="template.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/beez_20/css/template.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="18" selection-start="3809" selection-end="3809" vertical-scroll-proportion="0.0">
+            <state line="323" column="18" selection-start="6078" selection-end="6078" vertical-scroll-proportion="0.94690263">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frontforms.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_chronoforms/css/frontforms.css">
+      <file leaf-file-name="en-GB.com_content.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.com_content.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="1" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
+            <state line="53" column="45" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formcheck-max.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-max.js">
+      <file leaf-file-name="modules.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/beez_20/html/modules.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="20" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.87288135">
+            <state line="38" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-6.7083335">
               <folding />
             </state>
           </provider>
@@ -66,19 +71,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modules/mod_custom/mod_custom.xml" />
-        <option value="$PROJECT_DIR$/templates/beez5/index.php" />
-        <option value="$PROJECT_DIR$/templates/beez_20/templateDetails.xml" />
-        <option value="$PROJECT_DIR$/components/com_content/router.php" />
-        <option value="$PROJECT_DIR$/administrator/components/com_content/config.xml" />
-        <option value="$PROJECT_DIR$/components/com_content/views/article/view.html.php" />
-        <option value="$PROJECT_DIR$/templates/beez_20/index.php" />
-        <option value="$PROJECT_DIR$/templates/beez_20/css/template.css" />
-        <option value="$PROJECT_DIR$/modules/mod_simpleform2/ajax/jquery.simpleform.js" />
-        <option value="$PROJECT_DIR$/components/com_chronoforms/js/formcheck/lang/en.js" />
-        <option value="$PROJECT_DIR$/components/com_chronoforms/css/frontforms.css" />
-        <option value="$PROJECT_DIR$/administrator/components/com_chronoforms/form_actions/load_js/cfaction_load_js.php" />
+        <option value="$PROJECT_DIR$/libraries/joomla/html/html/behavior.php" />
+        <option value="$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-jpane.js" />
         <option value="$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-max.js" />
+        <option value="$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-yui.js" />
+        <option value="$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-customs.js" />
+        <option value="$PROJECT_DIR$/components/com_chronoforms/js/datepicker/datepicker.js" />
+        <option value="$PROJECT_DIR$/modules/mod_simpleform2/tmpl/mail_form.php" />
+        <option value="$PROJECT_DIR$/templates/beez_20/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/modules/mod_artuniversallightbox/mod_artuniversallightbox.php" />
+        <option value="$PROJECT_DIR$/plugins/content/ppgallery/ppgallery/res/jquery.prettyPhoto.js" />
+        <option value="$PROJECT_DIR$/plugins/content/ppgallery/ppgallery/res/jquery.js" />
+        <option value="$PROJECT_DIR$/templates/beez_20/error.php" />
+        <option value="$PROJECT_DIR$/plugins/content/jw_sig/jw_sig/tmpl/Classic/css/template.css" />
+        <option value="$PROJECT_DIR$/templates/beez_20/index.php" />
+        <option value="$PROJECT_DIR$/language/en-GB/en-GB.com_content.ini" />
+        <option value="$PROJECT_DIR$/templates/beez_20/css/template.css" />
       </list>
     </option>
   </component>
@@ -143,7 +151,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -157,7 +165,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beez_20" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -171,59 +183,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com_chronoforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ms" />
+              <option name="myItemId" value="beez_20" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_chronoforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_chronoforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="formcheck" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,6 +205,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -250,13 +225,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="25" width="1284" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5246423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27147487" sideWeight="0.6709062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3573744" sideWeight="0.4753577" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -265,7 +241,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -324,110 +299,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/beez_20/templateDetails.xml">
+    <entry file="file://$PROJECT_DIR$/plugins/content/jw_sig/jw_sig/tmpl/Classic/css/template.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="16" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.0">
+        <state line="14" column="64" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_separator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_menu/mod_menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/beez_20/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/beez_20/html/modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-6.7083335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/media/css/popup-imagelist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="8" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1352309020000" expanded="true" signature="709:733" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/templates/bluestork/css/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="1" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.3314917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/templates/bluestork/css/highcontrast.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="372" selection-end="372" vertical-scroll-proportion="0.31331593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/atomic/css/blueprint/src/print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="9" selection-start="1394" selection-end="1394" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/css/editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="9" selection-start="713" selection-end="713" vertical-scroll-proportion="0.45273632">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/beez_20/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2408" selection-end="2408" vertical-scroll-proportion="-0.625">
-          <folding />
+        <state line="69" column="10" selection-start="2220" selection-end="2220" vertical-scroll-proportion="-16.083334">
+          <folding>
+            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1384778297344" expanded="true" signature="2138:2206" placeholder="..." />
+            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_content/views/article/view.html.php">
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.com_content.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="173" selection-start="6338" selection-end="6338" vertical-scroll-proportion="0.0">
+        <state line="53" column="45" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_simpleform2/ajax/jquery.form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="16" selection-start="5618" selection-end="5622" vertical-scroll-proportion="0.33274338" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/beez_20/css/template.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="18" selection-start="3809" selection-end="3809" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_simpleform2/ajax/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_simpleform2/ajax/jquery.simpleform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="42" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_simpleform2/mod_simpleform2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_chronoforms/js/formcheck/lang/en.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/content/chronoforms/chronoforms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_chronoforms/form_actions/load_js/cfaction_load_js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="14" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.8028674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-jpane.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7627119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_chronoforms/css/frontforms.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="1" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-customs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-yui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_chronoforms/js/formcheck/formcheck-max.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="20" selection-start="3434" selection-end="3434" vertical-scroll-proportion="0.87288135">
+        <state line="323" column="18" selection-start="6078" selection-end="6078" vertical-scroll-proportion="0.94690263">
           <folding />
         </state>
       </provider>

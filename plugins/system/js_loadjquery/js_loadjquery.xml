@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="system" method="upgrade">
+	<name>System - jQuery Library</name>
+	<author>Joomseller</author>
+	<creationDate>April 2013</creationDate>
+	<copyright>Copyright (C) 2008 - 2013 Joomseller. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>admin@joomseller.com</authorEmail>
+	<authorUrl>www.joomseller.com</authorUrl>
+	<version>1.9.0</version>
+	<description>Add jQuery script to the site and resolve any conflict with Mootools scripts for Joomla 2.5</description>
+	<files>
+		<filename plugin="js_loadjquery">js_loadjquery.php</filename>
+		<filename plugin="js_loadjquery">index.html</filename>
+		<folder>libraries</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/plugins/system/js_loadjquery/libraries/elements">
+				<field name="jquery_version" type="list" default="1.8remote" label="PLG_SYSTEM_ZJ_LOADJQUERY_JQUERY_VERSION" description="PLG_SYSTEM_ZJ_LOADJQUERY_JQUERY_VERSION_REMODE_DESC">
+					<option value="1.3.2">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_3_2_LOCAL_COPY</option>
+					<option value="1.3remote">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_3_2_REMOTE_COPY</option>
+					<option value="1.4.4">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_4_4_LOCAL_COPY</option>
+					<option value="1.4remote">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_4_4_REMOTE_COPY</option>
+					<option value="1.5.2">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_5_2_LOCAL_COPY</option>
+					<option value="1.5remote">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_5_2_REMOTE_COPY</option>
+					<option value="1.6.4">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_6_LOCAL_COPY</option>
+					<option value="1.6remote">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_6_X_LATEST_REMOTE_COPY</option>
+					<option value="1.7.2">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_7_LOCAL_COPY</option>
+					<option value="1.7remote">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_7_X_LATEST_REMOTE_COPY</option>
+					<option value="1.8.3">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_8_LOCAL_COPY</option>
+					<option value="1.8remote">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_8_X_LATEST_REMOTE_COPY</option>
+					<option value="1.9.1">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_9_LOCAL_COPY</option>
+					<option value="1.9remote">PLG_SYSTEM_ZJ_LOADJQUERY_LOAD_V1_9_X_LATEST_REMOTE_COPY</option>
+				</field>
+				<field
+					name="jconflict"
+					type="radio"
+					default="1"
+					label="PLG_SYSTEM_ZJ_LOADJQUERY_REMOVE_MOOTOOLS_CONFLICT"
+					description="PLG_SYSTEM_ZJ_LOADJQUERY_REMOVE_MOOTOOLS_CONFLICT_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field
+					name="addwhere"
+					type="list"
+					default="fontend"
+					label="PLG_SYSTEM_ZJ_LOADJQUERY_WHERE_TO_ADD"
+					description="PLG_SYSTEM_ZJ_LOADJQUERY_WHERE_TO_ADD_DESC">
+					<option value="frontend">Frontend</option>
+					<option value="backend">Backend</option>
+					<option value="both">Both</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_js_loadjquery.ini</language>
+	</languages>
+</extension>

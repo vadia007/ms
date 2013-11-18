@@ -35,46 +35,50 @@ $doc->addScript($this->baseurl.'/templates/'.$this->template.'/javascript/hide.j
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
+
 <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
 <jdoc:include type="head" />
 
-
 </head>
+
 
 <body>
 
 <div id="main">
 
-    <h1 id="logo">
+<!--    <h1 id="logo">
 
-        <?php if ($logo): ?>
-        <a href="<?php echo $this->baseurl;?>">
-        <img src="<?php echo $this->baseurl ?>/<?php echo htmlspecialchars($logo); ?>"  alt="<?php echo htmlspecialchars($templateparams->get('sitetitle'));?>" />
+        <?php /*if ($logo): */?>
+        <a href="<?php /*echo $this->baseurl;*/?>">
+        <img src="<?php /*echo $this->baseurl */?>/<?php /*echo htmlspecialchars($logo); */?>"  alt="<?php /*echo htmlspecialchars($templateparams->get('sitetitle'));*/?>" />
         </a>
-        <?php endif;?>
-        <?php if (!$logo ): ?>
-        <?php echo htmlspecialchars($templateparams->get('sitetitle'));?>
-        <?php endif; ?>
-    </h1>
+        <?php// endif;?>
+    </h1>-->
+    <jdoc:include type="modules" name="head" style="xhtml"/>
+    <div>
+        <img src="<?php echo $this->baseurl ?>/images/head.jpg"  alt="img" />
+    </div>
+
     <div id="menu">
-        <jdoc:include type="modules" name="menu" />
+        <jdoc:include type="modules" name="menu"  style="xhtml"/>
     </div>
-    <div id="visual">
-        <jdoc:include type="modules" name="header_img" />
+    <div id="bread">
+      <?php if(JURI::base() != JURI::current()){?>
+        <jdoc:include type="modules" name="bread" />
+      <?php }?>
     </div>
+
+<!--    <div id="visual">
+        <jdoc:include type="modules" name="head_img" />
+    </div>-->
     <div id="content">
         <div id="left">
-            <div class="blue">
-                <jdoc:include type="modules" name="left_menu" />
-            </div>
+                <jdoc:include type="modules" name="left_menu" style="xhtml"/>
         </div>
         <div id="right">
-            <?php if(JURI::base() != JURI::current()){?>
-            <jdoc:include type="modules" name="bread" />
-                <?php }?>
             <jdoc:include type="message" />
             <jdoc:include type="component" />
-
 
         </div>
     </div>

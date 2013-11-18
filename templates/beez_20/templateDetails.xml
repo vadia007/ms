@@ -32,7 +32,8 @@
 		<position>menu</position>
         <position>left_menu</position>
         <position>content</position>
-        <position>header_img</position>
+        <position>head_img</position>
+        <position>head</position>
         <position>bread</position>
 	</positions>
 

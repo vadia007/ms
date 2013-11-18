@@ -19,13 +19,13 @@
 <title>simpleForm2</title>
 </head>
 <body>
-<p><?php echo JTEXT::_('Hello');?></p>
-<p><?php echo JTEXT::_('Sent from page');?>: <?php echo $url;?>.</p>
-<p><?php echo JTEXT::_('Date');?>: <?php echo $date;?>.</p>
-<p><?php echo JTEXT::_('User ip');?>: <?php echo $ip;?>.</p>
+<p><?php echo JTEXT::_('Привет');?></p>
+<p><?php echo JTEXT::_('Послано со страницы');?>: <?php echo $url;?>.</p>
+<p><?php echo JTEXT::_('Дата');?>: <?php echo $date;?>.</p>
+<p><?php echo JTEXT::_('ip отправителя');?>: <?php echo $ip;?>.</p>
 <table cellpadding="5" cellspacing="0">
 <tr>
-<th colspan="2"><font size="+1"><?php echo JTEXT::_('Form content');?>:</font></th>
+<th colspan="2"><font size="+1"><?php echo JTEXT::_('Заявка');?>:</font></th>
 </tr>
 <?php echo $rows;?>
 </table>
